@@ -1,0 +1,9 @@
+# Standard library target
+std = "roblox"
+
+[lints]
+shadowing = "allow"
+
+unused_variable = "warn"
+global_shadowing = "deny"
+unknown_global = "warn"
