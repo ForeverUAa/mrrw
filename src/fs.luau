@@ -1,5 +1,4 @@
---!strict
-
+--[[
 local types = require(script.Parent.types)
 
 local FS = {} :: types.FS
@@ -23,3 +22,4 @@ function FS.matchesPattern(str: string, pattern: string): boolean
 end
 
 return FS
+]]
